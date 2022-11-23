@@ -1,0 +1,3 @@
+# Use						Modules						Notes
+Base64						pybase64					Recommended
+JSON						ujson, orjson (or hyperjson)			orjson is fastest. Test cases may vary

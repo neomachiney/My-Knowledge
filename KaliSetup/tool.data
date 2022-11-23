@@ -1,0 +1,52 @@
+#!/bin/bash
+source ~/.bashrc
+source ~/.bash_profile
+source ~/.bash_aliases
+shopt -s expand_aliases
+
+# Apt
+apt install sublist3r steghide exiftool squidclient rlwrap -y
+
+# Golang
+#go get -u -v github.com/ffuf/ffuf
+#go get -u -v github.com/tomnomnom/assetfinder
+#go get -u -v github.com/anshumanbh/tko-subs
+#go get -u -v github.com/tomnomnom/waybackurls
+#go get -u -v github.com/tomnomnom/meg
+#go get -u -v github.com/tomnomnom/gf
+#go get -u -v github.com/tomnomnom/anew
+#go get -u -v github.com/hakluke/hakrevdns
+#go get -u -v github.com/hakluke/hakrawler
+#go get -u -v github.com/anshumanbh/tko-subs
+#go get -u -v github.com/haccer/subjack
+#go get -u github.com/hahwul/jwt-hack
+#GO111MODULE=on go get -u -v github.com/lc/subjs
+#GO111MODULE=on go get -u -v github.com/lc/gau
+#GO111MODULE=on go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns
+#GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/cmd/subfinder
+#GO111MODULE=on go get -u -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei && nuclei -update-templates
+#GO111MODULE=auto go get -u -v github.com/projectdiscovery/httpx/cmd/httpx
+
+# Python
+pip3 install --upgrade arjun ciphey dnsgen
+pip3 install --upgrade pwntools ciphey sslyze name-that-hash
+
+# NodeJS
+#npm install -g electron
+
+# Rust
+cargo install bandwhich grex
+cargo install du-dust ego hyperfine
+cargo install RustKraken rustscan
+
+# Other
+curl https://raw.githubusercontent.com/sensepost/autoDANE/master/software/tomcat_check/tomcat-scan.nse -o '/usr/share/nmap/scripts/tomcat-scan.nse'
+
+CURRENT="`pwd`"
+cd /var/www/html
+	if [[ ! -d B-XSSRF ]]; then
+		git clone https://github.com/SpiderMate/B-XSSRF
+	else
+		(cd B-XSSRF && gitfp)
+	fi
+cd $CURRENT

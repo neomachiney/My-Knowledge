@@ -1,0 +1,14 @@
+#COMMAND										DESCRIPTION
+$(readlink -f $0 | xargs dirname)							Absolute path of file (Removes symlink)
+grep -Fxvf file1 file2									Subtract file1 from file2
+sed -e "s/\b\(.\)/\u\1/g" 								Capitalize words
+tr [:upper:] [:lower:]									Lowercase words
+setcap -v cap_net_bind_service=+ep "$(readlink -f "$(which *binary*)")"			Sudo without root permission
+openssl s_client -connect crossfit.htb:21 -starttls *protocol*				Fetch SSL data
+ssh-keygen -t rsa									Generate OpenSSH private key with public key
+gpg --full-gen-key									Generate OpenPGP ????? key
+gpg --list-keys										List OpenPGP private keys
+gpg --armor --export [-r]								Generate OpenPGP public key (ASC)
+gpg --armor --export-secret-keys [-r]							Generate OpenPGP private key (ASC)
+gpg --encrypt [-r] 									Creates encrypted GPG file
+gpg --output --decrypt [-r] 								Outputs decrypted text to screen

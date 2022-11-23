@@ -1,0 +1,9 @@
+#!/bin/bash
+#apt update && apt full-upgrade -y
+
+# Ensure wget exists
+apt install wget -y
+
+# Sign kali packages
+wget -q -O - https://archive.kali.org/archive-key.asc | gpg --dearmor | tee /etc/apt/trusted.gpg.d/kali-archive-keyring.gpg
+

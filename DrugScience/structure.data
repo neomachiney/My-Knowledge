@@ -1,0 +1,74 @@
+# Natural Match							Drug Structure
+Acetyleugenol							?
+Anethole 							4-Methoxy-N-methylbenzylamine
+Apiole 								2-(4,7-dimethoxy-benzo[1,3]dioxol-5-yl)-ethylamine
+Asarone								N-methyl-N-(2,4,5-trimethoxybenzyl)amine
+Carpacin 							1-(6-Methoxy-1,3-benzodioxol-5-yl)-N-methylmethanamine
+Chavibetol 							3-Hydroxy-4-methoxyphenethylamine (4-O-methyldopamine)
+Chavicol 							p-Tyramine
+Dillapiole 							2-(6,7-dimethoxy-benzo[1,3]dioxol-5-yl)-ethylamine
+Elemicin 							Mescaline
+Estragole (Isoanethole/Methylchavicol) 				4-Methoxyphenethylamine
+Eugenol 							3-Methoxytyramine
+Hydroxychavicol 						Dopamine
+Isoapiole							?
+Isochavibetol							2-methoxy-5-methylaminomethyl-phenol
+Isoelemicin							N-methyl-1-(3,4,5-trimethoxyphenyl)methanamine
+Isoeugenol 							N-methylvanillylamine
+Isomyristicin							1-(7-Methoxy-1,3-benzodioxol-5-yl)-N-methylmethanamine
+Isosafrole 							3,4-Methylenedioxy-N-methylbenzylamine
+Methoxyeugenol							3,5-Dimethoxy-4-hydroxyphenethylamine
+Methyleugenol 							3,4-Dimethoxyphenethylamine (DMPEA/DIMPEA)
+Methylisoeugenol 						3,4-Dimethoxy-N-methylbenzylamine
+Myristicin							Lophophine							
+Northoapiole 							?
+Pseudoisogeugenol						AKOS004117766
+Safrole 							3,4-Methylenedioxyphenethylamine (MDPEA)
+
+# Drug Structure					Natural Match				Drug Match
+MDPEA							Safrole					X
+MDMPEA							?					3,4-Methylendioxy-5-methoxy-1-propenylbenzol
+MMDPEA (Lophophine)					Myristicin				X
+MDA							?					?
+2,3-MDA							?					?
+MDMA							?					?
+MDE (MDEA)						?					?
+MDPR							?					?
+MDIP (MDIPA)						?					?
+MDAL							?					?
+MMDA							?					?
+MMDMA (5-Meo-MDMA)					?					?
+Mescaline						Elemicin				X
+N-Methylmescaline					X					5-but-3-enyl-1,2,3-trimethoxybenzene
+2C-D							X					1,4-Dimethoxy-2-methyl-5-prop-2-enylbenzene
+
+
+# Natural Match							# Drug Structure
+Myristicin							5-Methoxy-3,4-methylenedioxymethamphetamine (MMDMA, 5-Meo-MDMA)
+Elemicin							N-methyl-1-(3,4,5-trimethoxyphenyl)propan-2-amine
+Safrole								3,4-methylenedioxymethamphetamine (MDMA)
+Acetyleugenol							?
+Anethole							Ethyl[1-(4-methoxyphenyl)ethyl]amine
+Apiole								1-(4,7-dimethoxy-1,3-benzodioxol-5-yl)-N-methylpropan-2-amine
+Asarone								?
+Carpacin							?
+Chavibetol							3-hydroxy-4-methoxymethamphetamine
+Chavicol							Pholedrine
+Dillapiole							?
+Estragole							p-Methoxymethamphetamine
+Eugenol								4-Hydroxy-3-methoxymethamphetamine
+Hydroxychavicol							3,4-Dihydroxymethamphetamine
+Isoapiole
+Isochavibetol							?
+Isoelemicin							N-Ethyl-1-(3,4,5-trimethoxyphenyl)ethanamine
+Isoeugenol							4-[1-(Ethylamino)ethyl]-2-methoxyphenol
+Isomyristicin							?
+Isosafrole							1-(3,4-Methylenedioxyphenyl)-N-ethylethylamine
+Methoxyeugenol							?
+Methyleugenol							Dimethoxymethamphetamine
+Methylisoeugenol						1-(3,4-Dimethoxyphenyl)-N-ethylethanamine
+Northoapiole							?
+Pseudoisoeugenol						2-[1-(Ethylamino)ethyl]-4-methoxyphenol
+
+Derived from:
+Elemicin -> Mescaline (10.1002/cber.19340670430)

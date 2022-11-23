@@ -1,0 +1,13 @@
+#!/bin/bash
+apt update && apt full-upgrade -y
+
+# Ensure package exists
+apt install curl resolvconf -y
+
+# Resolvers
+echo -ne "nameserver 1.1.1.1\nnameserver 8.8.8.8\nnameserver 8.8.4.4\n" >> "/etc/resolvconf/resolv.conf.d/head" && sudo service resolvconf restart
+
+# vim-plug install
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+

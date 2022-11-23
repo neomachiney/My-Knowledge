@@ -1,0 +1,14 @@
+#!/bin/bash
+pip3 install --upgrade asyncio aioconsole aiohttp aiofiles aiosonic uvloop
+pip3 install --upgrade requests requests_toolbelt requests-html httpx faster_than_requests
+pip3 install --upgrade twisted dnspython bs4 tornado scrapy sortedcontainers
+pip3 install --upgrade wheel setuptools pathlib readline twine netaddr rich
+pip3 install --upgrade pybase64 orjson rapidjson scrypt pyperclip pyfiglet PyGithub
+pip3 install --upgrade tqdm pika salt jsbeautifier grpcio pyngrok
+pip3 install --upgrade veryprettytable pysocks perfplot memory_profiler
+pip3 install --upgrade interruptingcow pipdeptree pip-autoremove pipupgrade
+pip3 install --upgrade dbus-python gobject PyGObject nextcord
+pip3 install --upgrade versioneer bumpversion virtualenv tox
+pip3 install --upgrade fuzzywuzzy[speedup] randomsentence black dill
+pip3 install --upgrade event-timer wiki-tools nemesis-scan xssterminal
+pip3 install --upgrade yacron mysql-connector

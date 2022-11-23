@@ -1,0 +1,65 @@
+#!/bin/bash
+apt update && apt full-upgrade -y
+
+# General
+apt install apt-file -y
+apt install deluge feh mpv mplayer simplescreenrecorder evince -y
+apt install sudo cron wget curl pigz jq gron sct xclip tree telnet -y
+apt install docker.io docker-compose python2 python3 -y
+apt install git git-lfs git-extras tig mercurial -y
+apt install vim vim-gtk3 vim-scripts neovim -y
+apt install ncdu duf fzf gzip zstd -y
+apt install filezilla lftp remmina openssh-server resolvconf -y
+apt install xutils-dev x11-xserver-utils graphicsmagick-imagemagick-compat -y
+apt install autopoint gperf tidy tor torbrowser-launcher -y
+
+# Personal
+apt install openbabel -y
+
+# Linux Customization
+apt install stterm qterminal tmux -y
+apt install i3 dwm suckless-tools -y
+
+# Building
+apt install mold -y
+apt install flex emscripten libtool -y 
+apt install make makepp maven scons -y
+apt install automake build-essential autoconf bison cmake -y
+
+# Monitoring
+apt install bmon htop iftop pydf -y
+
+# Web Browser/Server
+apt install firefox-esr chromium w3m -y
+apt install apache2 nginx libapache2-mod-php -y
+apt install firefox-esr-l10n-ne-np fonts-deva-extra -y
+
+# Package manager
+apt install python3-pip -y
+apt install cargo -y
+apt install yarn npm  -y
+apt install composer -y
+apt install rbenv -y
+
+# Languages
+apt install swig -y
+apt install golang -y
+apt install cpp-12 gcc-12 gcc-12-multilib g++-12 -y
+apt install clang-14 llvm-14 ccache -y
+apt install nodejs libnode-dev node-gyp -y
+apt install php php-mysqli php-gd php8.1-cli php8.1-curl php8.1-mysql php8.1-fpm -y
+apt install php8.1-gd php8.1-xml php8.1-mbstring php8.1-zip php8.1-soap php8.1-dev php8.1-sqlite -y
+apt install python3-distutils-extra -y
+
+# DBMS
+apt install mariadb-server -y 
+apt install sqlite sqlite3 -y
+apt install postgresql postgresql-15 libpq-dev -y
+apt install sqlcipher libsqlite3-dev -y
+apt install freetds-dev -y
+
+# Firmwares
+apt install firmware-misc-nonfree -y
+
+# Libraries
+apt install linux-headers-amd64 -y
