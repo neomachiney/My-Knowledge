@@ -6,15 +6,12 @@ apt install apt-file -y
 apt install deluge feh mpv mplayer simplescreenrecorder evince -y
 apt install sudo cron wget curl pigz jq gron sct xclip tree telnet -y
 apt install docker.io docker-compose python2 python3 -y
-apt install git git-lfs git-extras tig mercurial -y
+apt install gh git git-lfs git-extras tig mercurial -y
 apt install vim vim-gtk3 vim-scripts neovim -y
 apt install ncdu duf fzf gzip zstd -y
 apt install filezilla lftp remmina openssh-server resolvconf -y
 apt install xutils-dev x11-xserver-utils graphicsmagick-imagemagick-compat -y
-apt install autopoint gperf tidy tor torbrowser-launcher -y
-
-# Personal
-apt install openbabel -y
+apt install tidy tor torbrowser-launcher -y
 
 # Linux Customization
 apt install stterm qterminal tmux -y
@@ -42,11 +39,10 @@ apt install composer -y
 apt install rbenv -y
 
 # Languages
-apt install swig -y
 apt install golang -y
 apt install cpp-12 gcc-12 gcc-12-multilib g++-12 -y
 apt install clang-14 llvm-14 ccache -y
-apt install nodejs libnode-dev node-gyp -y
+apt install nodejs -y
 apt install php php-mysqli php-gd php8.1-cli php8.1-curl php8.1-mysql php8.1-fpm -y
 apt install php8.1-gd php8.1-xml php8.1-mbstring php8.1-zip php8.1-soap php8.1-dev php8.1-sqlite -y
 apt install python3-distutils-extra -y
@@ -56,7 +52,6 @@ apt install mariadb-server -y
 apt install sqlite sqlite3 -y
 apt install postgresql postgresql-15 libpq-dev -y
 apt install sqlcipher libsqlite3-dev -y
-apt install freetds-dev -y
 
 # Firmwares
 apt install firmware-misc-nonfree -y
