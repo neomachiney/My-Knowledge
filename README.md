@@ -1,5 +1,5 @@
 # My-Knowledge
-My knowledge on hacking, programming and sysadmin.. Help me exand my knowledge by submitting pull requests.
+My knowledge on hacking, programming and sysadmin.. Help me expand my knowledge by submitting pull requests.
 
 * **[Awesome Names](https://github.com/neomachiney/My-Knowledge/tree/master/AwesomeNames):** Names to use in social media.
 * **[Bash Commands](https://github.com/neomachiney/My-Knowledge/tree/master/Bash):** Useful shell commands
